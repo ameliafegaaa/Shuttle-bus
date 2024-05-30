@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Home"
+        android:title="Home"
+        android:icon="@drawable/home"/>
+
+    <item
+        android:id="@+id/BusSchedule"
+        android:title="Bus Schedule"
+        android:icon="@drawable/bus"/>
+
+
+    <item
+        android:id="@+id/CampusArticle"
+        android:title="Hot News"
+        android:icon="@drawable/news"/>/>
+</menu>

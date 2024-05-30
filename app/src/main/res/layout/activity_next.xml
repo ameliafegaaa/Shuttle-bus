@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NextActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lotti2"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="120dp"
+        android:layout_gravity="center"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/animation" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:text="President Univerity"
+        android:layout_gravity="center"
+        android:textColor="@color/biru_pu"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text='"When tomorrow leaders come together"'
+    android:layout_gravity="center"
+        android:textStyle="italic"
+        android:textColor="#708090"
+        android:textSize="18dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:text="Get Started!"
+        android:id="@+id/buttongetstarted"
+        android:layout_marginTop="16dp"
+        android:textStyle="italic"
+        android:textSize="18dp"
+        android:backgroundTint="@color/biru_pu"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<!-- rounded_bottom_corners.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/biru_pu" /> <!-- Set the background color -->
+    <corners android:topLeftRadius="0dp"
+        android:topRightRadius="50dp"
+        android:bottomLeftRadius="0dp"
+        android:bottomRightRadius="0dp" />
+</shape>
